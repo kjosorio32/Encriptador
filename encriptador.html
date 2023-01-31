@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 1</title>
+    <link rel="stylesheet" type="text/css" href="assets/styles/custom-style.css"/>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="/Css/style.css">
+    <script src="Js/scrip.js"></script>
+    
+</head>
+<body>
+    
+    <div class="container">
+        <div class="logo">
+            <img src="images/alura.png" alt="" class="logoImg">
+            <h1 class="tittle">Encriptador de Mensajes</h1>
+        </div>
+        <div class="left">
+            <input type="text" class="text-input" placeholder="Ingrese el Texto" id="inputTexto">
+        </div>
+        <div class="right">
+            <img src="Images/Solucion.png" alt="" id="imgDer">
+            <h1 id="texto1">Ningun mensaje fue encontrado</h1>
+            <textarea name="" cols="80" rows="8" id="texto2">Ingrese el Texto que desees encriptar o desencriptar</textarea>
+            <button type="button" id="copiar" onclick="copy()">copiar</button>
+        </div>
+        <div class="left-button">
+            <p>Solo Minusculas y sin asentos</p>
+            <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+            <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+        </div>
+    </div>
+
+</body>
+</html>
